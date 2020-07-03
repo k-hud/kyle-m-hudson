@@ -1,10 +1,10 @@
-# Prismic Gatsby Example Blog
+# My Personal Site
 
-> [Gatsby](https://www.gatsbyjs.org/) example blog project with content managed in [Prismic](https://prismic.io)
+I've set up my new site using cloning the Prismic + Gatsby blog project here: (https://github.com/prismicio/gatsby-blog)
 
-## Check out our article for a step by step guide to getting this project up and running
+# Netlify Status
 
-> [Prismic project guide](https://intercom.help/prismicio/examples/gatsby-js-samples/sample-blog-with-api-based-cms-gatsbyjs)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6bd5522-f74e-407a-9df2-c907e0f5552e/deploy-status)](https://app.netlify.com/sites/kyle-m-hudson/deploys)
 
 ## Launch this project in your local environment
 
@@ -24,10 +24,6 @@ Run the following commands to compile the project and launch the server for prod
 npm run build
 npm run serve
 ```
-
-## Learn more about using Prismic with Gatsby.js
-
-> [Prismic Gatsby.js Documentation](https://prismic.io/docs/reactjs/getting-started/prismic-gatsby)
 
 ## License
 
