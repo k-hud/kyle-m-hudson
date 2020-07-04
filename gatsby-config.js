@@ -9,6 +9,18 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    // {
+    //   resolve: 'gatsby-plugin-postcss',
+    //     options: {
+    //       postCssPlugins: [require('tailwindcss')('./tailwind.config.js')],
+    //     },
+    // },
+    {
+      resolve: 'gatsby-plugin-postcss',
+         options: {
+             postCssPlugins: [require('tailwindcss')('./src/components/tailwind.config.js')],
+          },
+      },
     {
       resolve: `gatsby-source-prismic-graphql`,
       options: {

@@ -54,7 +54,7 @@ const BlogHomeHead = ({ home }) => {
     <div className="home-header container" data-wio-id={ home._meta.id }>
       <div className="blog-avatar" style={ avatar }>
       </div>
-      <h1>{ RichText.asText(home.headline) }</h1>
+      <h1 className="p-2">{ RichText.asText(home.headline) }</h1>
       <p className="blog-description">{ RichText.asText(home.description) }</p>
     </div>
   );

@@ -1,13 +1,14 @@
 {
-  "name": "gatsby-blog",
+  "name": "kyle-m-hudson",
   "private": true,
-  "description": "A sample blog website built using Gatsby connected to Prismic CMS",
+  "description": "My personal site.",
   "version": "0.1.0",
-  "author": "Levi Gable",
+  "author": "Kyle Hudson",
   "dependencies": {
     "gatsby": "^2.20.12",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-postcss": "^2.3.9",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-sass": "^2.2.1",
     "gatsby-plugin-sharp": "^2.5.4",
@@ -20,7 +21,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
     "prettier": "^2.0.4"
