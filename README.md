@@ -2,6 +2,8 @@
 
 I've set up my new site using cloning the Prismic + Gatsby blog project here: (https://github.com/prismicio/gatsby-blog)
 
+Tailwind CSS is also installed. 
+
 # Netlify Status
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f6bd5522-f74e-407a-9df2-c907e0f5552e/deploy-status)](https://app.netlify.com/sites/kyle-m-hudson/deploys)
