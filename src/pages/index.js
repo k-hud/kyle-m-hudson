@@ -4,6 +4,11 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layouts'
 import BlogPosts from '../components/BlogPosts'
 
+import netlifyIdentity from 'netlify-identity-widget';
+
+window.netlifyIdentity = netlifyIdentity;
+netlifyIdentity.init();
+
 // Query for the Blog Home content in Prismic
 export const query = graphql`
 {
