@@ -2,7 +2,13 @@
 
 I've set up my new site using cloning the Prismic + Gatsby blog project here: (https://github.com/prismicio/gatsby-blog)
 
-Tailwind CSS is also installed. 
+Tailwind CSS and Tailwind UI is also installed. 
+
+## Todo List
+
+- Setup and instate user registration and authentication
+- Design v1 of the site in Figma and impement in Tailwind UI
+- Impelement private posts behind authentication
 
 # Netlify Status
 
