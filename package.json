@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Hudson",
   "dependencies": {
+    "@auth0/auth0-react": "^1.0.0",
     "@tailwindcss/ui": "^0.3.0",
     "gatsby": "^2.20.12",
     "gatsby-plugin-manifest": "^2.3.3",
@@ -23,6 +24,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
+    "react-use-auth": "^0.7.5",
     "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
