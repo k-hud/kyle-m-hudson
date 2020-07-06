@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "tailwind build src/stylesheets/tailwind.css -o public/css/tailwind.css && gatsby build",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "gatsby develop",
     "serve": "gatsby serve",
