@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import Footer from './Footer'
 import '../../stylesheets/main.scss'
+import Nav from '../nav'
 
 export default props => (
   <StaticQuery
@@ -39,6 +40,8 @@ const Layout = ( props ) => {
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css"></link>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
       </Helmet>
+
+      <Nav />
       <main>
         { props.children }
       </main>
