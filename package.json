@@ -7,7 +7,7 @@
   "dependencies": {
     "@auth0/auth0-react": "^1.0.0",
     "@tailwindcss/ui": "^0.3.0",
-    "gatsby": "^2.20.12",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-offline": "^3.1.2",
     "gatsby-plugin-postcss": "^2.3.9",
